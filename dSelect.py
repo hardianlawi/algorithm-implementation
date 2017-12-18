@@ -1,12 +1,24 @@
-from random import randrange
+def dSelect(arr, order_statistic):
 
-def rSelect(arr, order_statistic):
     n = len(arr)
 
-    if n == 1:
+    if n <= 1:
         return arr[0]
 
-    pivot = randrange(n)
+    i = 0
+
+    tmp = arr[i:i+5]
+
+    C = []
+
+    while (len(tmp) != 0):
+        C.append(tmp[int(len(tmp)/2)])
+        i += 5
+        tmp = arr[i:i+5]
+
+    P = dSelect(C, int(len(C)/2))
+
+    pivot = arr.index(P)
 
     arr[0], arr[pivot] = arr[pivot], arr[0]
 
@@ -24,9 +36,9 @@ def rSelect(arr, order_statistic):
     if pivot + 1 == order_statistic:
         return arr[pivot]
     elif pivot + 1 > order_statistic:
-        return rSelect(arr[:pivot], order_statistic)
+        return dSelect(arr[:pivot], order_statistic)
     else:
-        return rSelect(arr[pivot+1:], order_statistic - pivot - 1)
+        return dSelect(arr[pivot+1:], order_statistic - pivot - 1)
 
 
 if __name__ == "__main__":
@@ -36,4 +48,4 @@ if __name__ == "__main__":
     order_statistic = int(input("Input order statistic:\n"))
 
     print("")
-    print(rSelect(arr, order_statistic))
+    print(dSelect(arr, order_statistic))
