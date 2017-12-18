@@ -7,14 +7,14 @@ def dSelect(arr, order_statistic):
 
     i = 0
 
-    tmp = arr[i:i+5]
+    tmp = sorted(arr[i:i+5])
 
     C = []
 
     while (len(tmp) != 0):
         C.append(tmp[int(len(tmp)/2)])
         i += 5
-        tmp = arr[i:i+5]
+        tmp = sorted(arr[i:i+5])
 
     P = dSelect(C, int(len(C)/2))
 
