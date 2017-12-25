@@ -2,36 +2,34 @@
 
 This repository contains the implementation codes for various popular algorithms.
 
-# List of Algorithms
-
 ## Sorting
 
 ### Deterministic
 
-* Insertion Sort
-* Merge Sort
-* Quick Sort
+* [Insertion Sort](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/sorting/insertionSort.py)
+* [Merge Sort](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/sorting/mergeSort.py)
+* [Quick Sort](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/sorting/quickSort.py)
 
 ### Randomized
 
-* Counting Sort
+* [Counting Sort](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/sorting/countingSort.py)
 
 ## Multiplication
 
-* Karatsuba
-* Strassen Matrix
+* [Karatsuba](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/multiplication/karatsubaMultiplication.py)
+* [Strassen Matrix](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/multiplication/strassenAlgorithm.py)
 
 ## Selection
 
-* Deterministic Selection
-* Randomzied Selection
+* [Deterministic Selection](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/selection/dSelect.py)
+* [Randomzied Selection](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/selection/rSelect.py)
 
 ## Others
 
-* Closest Pairs
-* Counting Inversion
-* Estimating root square using binary search
-* Random Contraction
+* [Closest Pairs](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/others/closestPairs.py)
+* [Counting Inversion](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/others/countInversion.py)
+* [Estimating root square using binary search](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/others/squareRoot_BS.py)
+* [Random Contraction](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/others/randomContraction.py)
 
 # Any questions?
 Feel free to open issues if you have any questions
