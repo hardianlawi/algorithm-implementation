@@ -1,4 +1,5 @@
-stanford-algo-notes/
+stanford-algo-notes/*
+
 .DS_Store
 # Byte-compiled / optimized / DLL files
 __pycache__/
