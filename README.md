@@ -6,23 +6,23 @@ This repository contains the implementation codes for various popular algorithms
 
 ### Deterministic
 
-* [Insertion Sort](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/sorting/insertionSort.py)
-* [Merge Sort](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/sorting/mergeSort.py)
-* [Quick Sort](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/sorting/quickSort.py)
+* [Insertion Sort](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/sorting/insertionSort.py) - `O(n^2)`
+* [Merge Sort](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/sorting/mergeSort.py) - `O(nlogn)`
+* [Quick Sort](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/sorting/quickSort.py) - `O(n^2)`
 
 ### Randomized
 
-* [Counting Sort](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/sorting/countingSort.py)
+* [Counting Sort](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/sorting/countingSort.py) - `O(n + k)`
 
 ## Multiplication
 
-* [Karatsuba](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/multiplication/karatsubaMultiplication.py)
-* [Strassen Matrix](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/multiplication/strassenAlgorithm.py)
+* [Karatsuba](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/multiplication/karatsubaMultiplication.py) - `O(n^log_2(3))`
+* [Strassen Matrix](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/multiplication/strassenAlgorithm.py) - `O(n^3)`
 
 ## Selection
 
-* [Deterministic Selection](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/selection/dSelect.py)
-* [Randomzied Selection](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/selection/rSelect.py)
+* [Deterministic Selection](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/selection/dSelect.py) - `O(n)`
+* [Randomzied Selection](https://github.com/hardianlawi/algorithm-implementation/blob/master/scripts/selection/rSelect.py) - `O(n^2)`
 
 ## Others
 
